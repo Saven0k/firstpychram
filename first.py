@@ -1,3 +1,7 @@
+#Первый семинар
+
+#Задание на семинаре
+
 #a = int(input("Введите число - a: "))
 
 
@@ -75,6 +79,7 @@
 
 
 
+#Домашнее задание
 
 #Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
@@ -86,13 +91,13 @@
 
     #Day = int(input("Введите номер дня в недели: "))
 #
-#    def HollyDay(Day):
+#    def Holly_Day(Day):
 #        if Day == 6 or Day == 7:
 #            print("Yes")
 #        else:
 #            print("no")
 
-#    HollyDay(Day)
+#    Holly_Day(Day)
 
 
 
@@ -113,12 +118,12 @@
 #x = int(input("Введите значение числа x: "))
 #y = int(input("Введите значение числа y: "))
 #z = int(input("Введите значение числа z: "))
-#def TrueorFalse(x , y , z):
+#def True_or_False(x , y , z):
 #    if not(x or y or z) == ((not x) and (not y) and (not z)):
 #        print(True)
 #    else:
 #        print(False)
-#TrueorFalse(x , y , z)
+#True_or_False(x , y , z)
 
 
 
@@ -152,7 +157,7 @@
 #quarter = int(input("Введите номер четверти: "))
 
 
-#def exercise4(quaeter):
+#def exercise_4(quaeter):
 #    if quaeter == 1:
 #        print("x > 0 and y > 0")
 #    elif quaeter == 2:
@@ -162,7 +167,7 @@
 #    elif quaeter == 4:
 #        print("x > 0 and y < 0")
 
-#exercise4(quarter)
+#exercise_4(quarter)
 
 
 
@@ -187,10 +192,10 @@ y1 = int(input("Введите значение числа y первой точ
 x2 = int(input("Введите значение числа x второй точки: "))
 y2 = int(input("Введите значение числа y второй точки: "))
 
-def Distance2D(x1 , y1 , x2 , y2):
+def Distance_2D(x1 , y1 , x2 , y2):
     result = round((((x1 - x2) ** 2) + ((y1 - y2) ** 2)) ** 0.5 , 3)
     print(result)
-Distance2D(x1, y1, x2, y2)
+Distance_2D(x1, y1, x2, y2)
 
 
 
